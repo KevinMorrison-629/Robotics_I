@@ -330,7 +330,7 @@ def run_part2():
     print('p01a:')
     print(p01a)
     print('r01a:')
-    print(r01a)
+    print(theta2(r01a))
 
     #part b
     r01b = np.array([[0,1],[-1,0]])
@@ -338,7 +338,7 @@ def run_part2():
     print('p01b:')
     print(p01b)
     print('r01b:')
-    print(r01b)
+    print(theta2(r01b))
 
     # plotting (showing figure)
     display_width = 500
@@ -797,12 +797,12 @@ def run_part3c():
     pygame.quit()
 
 
-
-
 # ================================================================================= #
 # =========================    Execute Project Sections    ======================== #
 # ================================================================================= #
 
+# before running, please read the README file included with the project files
+# uncomment these out individually to run each section of code
 
 #run_part1()
 #run_part2()
